@@ -429,20 +429,16 @@ header img {
   margin-bottom: 50px;
 }
 
-.button1:hover,
-.button1:focus {
-  /* margin-top: 16px;
-  margin-bottom: 6px; */
-  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-  transform: translateY(0.99em);
+.button1:hover {
+  margin-top: 16px;
+  margin-bottom: 6px;
+  
 }
 
-.button2:hover,
-.button2:focus {
-  /* margin-top: 18px;
-  margin-bottom: 0; */
-  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-  transform: translateY(0.99em);
+.button2:hover {
+  margin-top: 18px;
+  margin-bottom: 0;
+  
 }
 
 .icon {
@@ -485,6 +481,7 @@ header img {
   padding-left: 200px;
   line-height: 40px;
   color: rgb(46, 216, 188);
+  cursor: pointer;
 }
 .icons {
   padding: 40px 0px 80px 700px;
